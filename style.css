@@ -1,0 +1,194 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #070F18;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    margin-top: 49px;
+}
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#buttonCta{
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    color: #FFFFFF;
+}
+
+#headerCta h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+}
+#headerCta p{
+    margin-bottom: 40px;
+}
+
+#headerImg{
+    margin: 50px 0 50px 40px;
+}
+
+#headerImg img{
+    width: 100%;
+    border-radius: 60px;
+}
+
+.headerLogo{
+    text-align: center;
+}
+
+#clients{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#headerClientText p{
+    margin: 0;
+}
+
+h1.black{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    margin-top: 0;
+}
+
+h2.red{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F75C4E;
+}
+#services{
+    margin-bottom: 30px;
+}
+#services p{
+    text-align: center;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.textCenter h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070F18;
+}
+
+#contact{
+    width: 100%;
+    margin: 100px 0 115px 0;
+}
+
+#contactImg img{
+    border-radius: 40px;
+    width: 100%;
+}
+
+#contactForm{
+    margin-left: 75px;
+    text-align: left;
+}
+
+#contactForm input{
+    background: #F5F6FB;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    border: 0;
+    width: 70%;
+    padding: 15px 25px 15px 25px;
+}
+
+#contactForm button{
+    background: #1F7CFF;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 40%;
+    border-color: #1F7CFF;
+}
+
+#portfolioTitle{
+    margin: 70px 0 35px;
+    text-align: left;
+}
+
+.portifolioImg img{
+    width: 100%;
+}
+
+.portifolioImg{
+    padding: 20px;
+}
